@@ -1,0 +1,41 @@
+<%- include('partials/header') %>
+<%- include('partials/navbar') %>
+
+<div class="container mt-5">
+
+  <h1 class="text-center mb-4">Ligas</h1>
+
+  <div class="row">
+    
+    <% ligas.forEach(liga => { %>
+      
+      <div class="col-md-4">
+        <div class="card shadow mb-4">
+          
+          <img src="<%= liga.imagem %>" class="card-img-top p-3" alt="<%= liga.nome %>" style="height: 200px; object-fit: contain;">
+
+          <div class="card-body">
+            <div class="d-flex justify-content-between align-items-center mb-2">
+              <h5 class="card-title mb-0 fw-bold"><%= liga.nome %></h5>
+              
+              <!-- Badge dinamica baseada na confederacao -->
+              <span class="badge <%= liga.confederacao === 'CONMEBOL' ? 'bg-success' : 'bg-primary' %>">
+                <%= liga.confederacao %>
+              </span>
+            </div>
+
+            <p class="card-text">
+              <strong>País:</strong> <%= liga.pais %><br>
+              <strong>Maior Campeão:</strong> <%= liga.maiorCampeao %>
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+    <% }) %>
+
+  </div>
+</div>
+
+<%- include('partials/footer') %>
