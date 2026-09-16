@@ -1,0 +1,33 @@
+body {
+  background-color: #f1f3f5;
+}
+
+h1 {
+  letter-spacing: 1px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.card {
+  border-radius: 15px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.card img {
+  max-height: 400px;
+  object-fit: contain; 
+}
+
+.card-text {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
