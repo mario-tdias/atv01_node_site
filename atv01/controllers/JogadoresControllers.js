@@ -5,12 +5,12 @@ route.get("/jogadores", (req, res) => {
 
    const jogadores = [
         {
-            nome: "Lucas Moura",
-            posicao: "Atacante / Meia",
+            nome: "Rogério Ceni",
+            posicao: "Goleiro",
             clube: "São Paulo",
             nacionalidade: "Brasil",
-            numero: 7,
-            imagem: "/images/lucasmoura.png"
+            numero: 1,
+            imagem: "/images/jogadores/rogerioceni.png"
         },
         {
             nome: "Paulo Dybala",
@@ -18,7 +18,7 @@ route.get("/jogadores", (req, res) => {
             clube: "AS Roma",
             nacionalidade: "Argentina",
             numero: 21,
-            imagem: "/images/dybala.png"
+            imagem: "/images/jogadores/dybala.png"
         },
         {
             nome: "Carlos Gárces",
@@ -26,7 +26,23 @@ route.get("/jogadores", (req, res) => {
             clube: "Cienciano",
             nacionalidade: "Equador",
             numero: 21,
-            imagem: "/images/.png"
+            imagem: "/images/jogadores/carlosgarces.png"
+        },
+        {
+            nome: "Ricardo Quaresma",
+            posicao: "Atacante",
+            clube: "Beşiktaş",
+            nacionalidade: "Portugal",
+            numero: 7,
+            imagem: "/images/jogadores/ricardoquaresma.png"
+        },
+        {
+            nome: "Enzo Francescoli",
+            posicao: "Meia-Atacante",
+            clube: "River Plate",
+            nacionalidade: "Uruguai",
+            numero: 10,
+            imagem: "/images/jogadores/enzofrancescoli.png"
         }
     ];
 

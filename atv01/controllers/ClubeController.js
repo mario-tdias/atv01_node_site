@@ -8,20 +8,32 @@ route.get("/clubes", (req, res) =>{
             nome: "São Paulo",
             pais: "Brasil",
             estadio: "Morumbi",
-            imagem: "/images/saopaulo.png"
+            imagem: "/images/clubes/saopaulo.png"
         },
         {
             nome: "Cienciano",
             pais: "Peru",
             estadio: "Estádio Inca Garcilasso",
-            imagem: "/images/cienciano.png"
+            imagem: "/images/clubes/cienciano.png"
         },
         {
             nome: "AS Roma",
             pais: "Itália",
             estadio: "Stadio Olimpico",
-            imagem: "/images/asroma.png"
+            imagem: "/images/clubes/asroma.png"
 
+        },
+        {
+            nome: "Beşiktaş",
+            pais: "Turquia",
+            estadio: "Tüpraş Stadium",
+            imagem: "/images/clubes/besiktas.png"
+        },
+        {
+            nome: "River Plate",
+            pais: "Argentina",
+            estadio: "Monumental de Nuñez",
+            imagem: "/images/clubes/riverplate.png"
         }
     ]
 

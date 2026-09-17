@@ -8,35 +8,35 @@ route.get("/ligas", (req, res) => {
             pais: "Brasil",
             maiorCampeao: "Palmeiras",
             confederacao: "CONMEBOL",
-            imagem: "/images/brasileirao.png"
+            imagem: "/images/ligas/brasileirao.png"
         },
         {
             nome: "Premier League",
             pais: "Inglaterra",
             maiorCampeao: "Manchester United",
             confederacao: "UEFA",
-            imagem: "/images/premierleague.png"
+            imagem: "/images/ligas/premierleague.png"
         },
         {
             nome: "Libertadores",
             pais: "América do Sul",
             maiorCampeao: "Independiente",
             confederacao: "CONMEBOL",
-            imagem: "/images/libertadores.png"
+            imagem: "/images/ligas/libertadores.png"
         },
         {
             nome: "Serie A TIM",
             pais: "Itália",
             maiorCampeao: "Juventus",
             confederacao: "UEFA",
-            imagem: "/images/seriea.png"
+            imagem: "/images/ligas/seriea.png"
         },
         {
             nome: "La Liga",
             pais: "Espanha",
             maiorCampeao: "Real Madrid",
             confederacao: "UEFA",
-            imagem: "/images/laliga.png"
+            imagem: "/images/ligas/laliga.png"
         }
     ];
 
