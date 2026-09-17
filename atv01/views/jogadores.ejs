@@ -1,0 +1,38 @@
+<%- include('partials/header') %>
+<%- include('partials/navbar') %>
+
+<div class="container mt-5">
+
+  <h1 class="text-center mb-4">Jogadores</h1>
+
+  <div class="row">
+    
+    <% jogadores.forEach(jogador => { %>
+      
+      <div class="col-md-4">
+        <div class="card shadow mb-4">
+          
+          <img src="<%= jogador.imagem %>" class="card-img-top p-3" alt="<%= jogador.nome %>" style="height: 250px; object-fit: contain;">
+
+          <div class="card-body">
+            <div class="d-flex justify-content-between align-items-center mb-2">
+              <h5 class="card-title mb-0 fw-bold"><%= jogador.nome %></h5>
+              <span class="badge bg-dark fs-6">#<%= jogador.numero %></span>
+            </div>
+
+            <p class="card-text">
+              <strong>Clube:</strong> <%= jogador.clube %><br>
+              <strong>Posição:</strong> <%= jogador.posicao %><br>
+              <strong>Nacionalidade:</strong> <%= jogador.nacionalidade %>
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+    <% }) %>
+
+  </div>
+</div>
+
+<%- include('partials/footer') %>
