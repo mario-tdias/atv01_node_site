@@ -34,6 +34,24 @@ route.get("/clubes", (req, res) =>{
             pais: "Argentina",
             estadio: "Monumental de Nuñez",
             imagem: "/images/clubes/riverplate.png"
+        },
+           {
+            nome: "Real Madrid",
+            pais: "Espanha",
+            estadio: "Santiago Bernabéu",
+            imagem: "/images/clubes/realmadrid.png"
+        },
+          {
+            nome: "Nacional",
+            pais: "Uruguai",
+            estadio: "Gran Parque Central",
+            imagem: "/images/clubes/nacional.png"
+        },
+          {
+            nome: "Guarani",
+            pais: "Brasil",
+            estadio: "Brinco de Ouro da Princesa",
+            imagem: "/images/clubes/guarani.png"
         }
     ]
 

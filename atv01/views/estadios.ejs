@@ -1,0 +1,35 @@
+<%- include('partials/header') %>
+<%- include('partials/navbar') %>
+
+<div class="container mt-5">
+
+  <h1 class="text-center mb-4">Estádios</h1>
+
+  <div class="row">
+    
+    <% estadios.forEach(estadio => { %>
+      
+      <div class="col-md-4">
+        <div class="card shadow mb-4">
+          
+          <img src="<%= estadio.imagem %>" alt="<%= estadio.nome %>">
+
+          <div class="card-body">
+            <h5 class="card-title"><%= estadio.nome %></h5>
+            <p class="card-text">
+              Clube: <%= estadio.clube %><br>
+              Cidade: <%= estadio.cidade %><br>
+              Fundação: <%= estadio.fundacao %>
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+    <% }) %>
+
+  </div>
+</div>
+
+
+<%- include('partials/footer') %>

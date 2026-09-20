@@ -13,10 +13,12 @@ app.use(express.static("public"));
 import ClubeController from './controllers/ClubeController.js';
 import LigasController from './controllers/LigasController.js';
 import JogadoresController from './controllers/JogadoresControllers.js';
+import EstadiosController from './controllers/EstadiosController.js';
 
 app.use("/",ClubeController);
 app.use("/",LigasController);
 app.use("/", JogadoresController);
+app.use("/", EstadiosController);
 
 // aqui irão as rotas do site
 // rota principal

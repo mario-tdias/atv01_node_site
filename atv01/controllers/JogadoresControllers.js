@@ -43,6 +43,30 @@ route.get("/jogadores", (req, res) => {
             nacionalidade: "Uruguai",
             numero: 10,
             imagem: "/images/jogadores/enzofrancescoli.png"
+        },
+        {
+            nome: "Cristiano Ronaldo",
+            posicao: "Atacante",
+            clube: "Real Madrid",
+            nacionalidade: "Portugal",
+            numero: 7,
+            imagem: "/images/jogadores/cr7.png"
+        },
+         {
+            nome: "Hugo de Léon",
+            posicao: "Zagueiro",
+            clube: "Nacional",
+            nacionalidade: "Uruguai",
+            numero: 19,
+            imagem: "/images/jogadores/hugodeleon.png"
+        },
+        {
+            nome: "Careca",
+            posicao: "Atacante",
+            clube: "Guarani",
+            nacionalidade: "Brasil",
+            numero: 9,
+            imagem: "/images/jogadores/careca.png"
         }
     ];
 
